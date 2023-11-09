@@ -11,7 +11,7 @@ def click():
         fib_result.insert(1.0, error, "center")
         return
     else:
-        fib = int(fib, base=10)
+        fib = int(fib, base=10)-1
         fib_answer = math.floor((1/(5 **(1/2))*(((1+(5**(1/2)))/2)**fib-((1-(5**(1/2)))/2)**fib)))
         fib_result.insert(1.0, fib_answer, "center")
 
