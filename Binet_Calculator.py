@@ -17,7 +17,7 @@ def click():
 
 ### MAIN ###
 window = Tk()
-window.title("Bidet's Calculator")
+window.title("Binet's Calculator")
 window.configure(background="pink")
 window.resizable(width=False, height=False)
 
